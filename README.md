@@ -1,6 +1,6 @@
 # Steps To Run This Project on your Local Machine
 1. first clone this project to your local machine using `git clone` if you are using Git , other wise download zip file.
-2. in second step open this project in any of front-end IDE tools like Visual studio code/Atom ..etc as per your comfort zone
+2. in second step open this project in any one of front-end IDE tools like Visual studio code/Atom ..etc as per your comfort zone
 3. insight of memory management purpose node_modules are removed from the project while adding it to Github so first install node_modules using `npm install` command
 4. also we require JSON server to run this project so install it by using this following command `npm install -g json-server`
 5. after completing above steps run project using `ng serve -o`

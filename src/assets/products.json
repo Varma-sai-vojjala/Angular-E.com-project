@@ -1,0 +1,29 @@
+{
+  "Products": [
+    {
+      "id": 1,
+      "productName": "samsung tv",
+      "productPrice": "1000"
+    },
+    {
+      "id": 2,
+      "productName": "onida tv",
+      "productPrice": "3000"
+    },
+    {
+      "id": 3,
+      "productName": "realme tv",
+      "productPrice": "2000"
+    },
+    {
+      "productName": "redmi tv",
+      "productPrice": "4000",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "productName": "amazon tv",
+      "productPrice": "1500"
+    }
+  ]
+}

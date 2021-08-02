@@ -1,0 +1,20 @@
+
+
+
+<div class="container">
+
+    <form [formGroup]="userForm" (ngSubmit)="saveProduct(userForm)">
+      <div class="form-group">
+        <label>Username</label>
+        <input type="text" formControlName="userName" class="form-control">
+        <!-- <div *ngIf="userForm.get('userName').invalid && userForm.get('userName').touched">
+          <small *ngIf="userForm.get('userName').errors?.required" class="text-danger">Username is required</small>
+          <small *ngIf="userForm.get('userName').errors?.pattern" class="text-danger">Username should be valid & It should b/w 5 to 15 chars</small>
+        </div> -->
+      </div>
+      <button [disabled]="!userForm.valid" type="submit" class="btn btn-success">Submit</button>
+    </form>
+  
+  </div>
+  
+  {{data | json}}

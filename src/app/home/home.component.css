@@ -1,0 +1,40 @@
+li{
+    margin:auto;
+    list-style-type: none;
+
+}
+h3{
+    padding-top: 10px;
+    color: lightsalmon;
+}
+.teja{
+    height: 260px;
+    padding-top: 15px;
+}
+span{
+    font-size: 17px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+} 
+.varma{
+    text-align: center;
+    margin: auto;
+    border: 2px solid navy;
+    box-shadow: 0 0 10px black;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+sup{
+    color: red;
+}
+#red{
+    color: red;
+}
+pre{
+    font-size: 17px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+summary{
+    color:red;
+    font-weight: 400;
+    text-decoration: underline black;
+}
